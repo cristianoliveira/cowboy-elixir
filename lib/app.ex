@@ -9,7 +9,7 @@ defmodule App do
   def run do
     routes = [ {"/", App.PageHandler, []} ]
     dispatch = :cowboy_router.compile([{:_, routes}])
-    opts = [port: 5000]
+    opts = [port: 80]
     env = [dispatch: dispatch]
 
     {:ok, _pid} = :cowboy.start_http(:http, 100, opts, [env: env])
