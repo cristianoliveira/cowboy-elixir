@@ -1,4 +1,4 @@
-# Elixir + Cowboy Hello World
+# Elixir + Cowboy Hello World (Heroku)
 Simple web hello world using Cowboy
 
 ## Dependecies:
