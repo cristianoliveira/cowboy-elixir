@@ -17,7 +17,7 @@ Then access http://localhost:5000
  Instructions here: https://devcenter.heroku.com/articles/heroku-command
  - Prepare the environment
 ```bash
- heroku create --buildpack "https://github.com/CristianOliveiraDaRosa/heroku-buildpack-elixir.git"
+ heroku create --buildpack "https://github.com/cristianoliveira/heroku-buildpack-elixir.git"
 ```
 - Log into Heroku
 ```bash
